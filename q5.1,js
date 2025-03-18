@@ -1,0 +1,12 @@
+For real time notification system I would like to use Firebase push notifications. Its fast, realiable, easy to implement and secure.
+here are the steps for this:
+1. get the firebase configuration file.
+2. authorize the firebase using that file.
+3. Enable the notification api from firebase web panel.
+4. use the api to send the push notifications. 
+
+other aproach is to use web sockets which are better options too for real time notifications.
+
+other option also includes expo push notifications. use expo sdk to send notifications.
+1. just get the device push token and send it to the expo api and setup the api to send the custom notifications.
+
