@@ -1,0 +1,8 @@
+Caching:
+Implement caching mechanisms to store frequently accessed data in memory. This reduces the need to query the database repeatedly for the same data.
+You can use caching solutions like Redis or Memcached.
+
+Database Query Optimization:
+
+Ensure that your database queries are optimized by using appropriate indexes and projections.
+Avoid fetching unnecessary fields and use pagination to limit the number of records retrieved.
