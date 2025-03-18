@@ -1,3 +1,5 @@
+// question 1 updated
+
 // Create an index on the 'owner' field
 db.tasks.createIndex({ owner: 1 });
 const page = 1; // Current page number
